@@ -1,0 +1,22 @@
+/*
+*  main.css v1.0.0
+*  Copyright 2019 - 2021 Stephanie Gamboa
+*  Licensed under MIT License (https://choosealicense.com/licenses/mit/)
+*/
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.navbar-brand {
+    background: url("../images/StudentsTech4.jpg")
+}
+
+.insta {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    background: url("../images/background-code.jpg");
+}
