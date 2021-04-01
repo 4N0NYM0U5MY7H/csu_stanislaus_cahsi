@@ -16,6 +16,14 @@ The format is based on [Keep a changelog](https://keepachangelog.com/en/1.0.0), 
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
 
+## [1.0.6] 31-03-2021
+### Changed
+- Moved the nav links to the right side of the nav bar for device wider than 992px.
+- Navbar responsive logo across the live pages of the site.  Depending on the device view width, you'll now see various versions of the CAHSI logo.
+-- Device width xs(<576px) displays only the colorful logo, no text.
+-- Device width sm(576px to 767px) displays the colorful logo with CAHSI text.
+-- Device width md(768px) and larger displays the full CAHSI logo, including the full name.
+
 ## [1.0.5] 30-03-2021
 ### Changed
 - Entire site support for boostrap 4.4.1 and jquery 3.4.1.

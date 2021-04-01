@@ -4,13 +4,15 @@
 *  Licensed under MIT License (https://choosealicense.com/licenses/mit/)
 */
 
+@import "../vendor/bootstrap/bootstrap-4.4.1.css";
+
 .responsive {
     width: 100%;
     height: auto;
 }
 
 .navbar-brand {
-    background: url("../images/StudentsTech4.jpg")
+    background: url("../images/StudentsTech4.jpg");
 }
 
 .insta {
