@@ -5250,15 +5250,15 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
-	background: url("../../images/StudentsTech4.jpg")
+/*	background: url("../../images/StudentsTech4.jpg")*/
 }
-.insta {
+/*.insta {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
 	background: url("../../images/background-code.jpg")
-}
+}*/
 @media (min-width: 576px) {
   .jumbotron {
     padding: 4rem 2rem;
