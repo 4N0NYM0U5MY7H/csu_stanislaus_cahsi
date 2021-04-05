@@ -16,6 +16,11 @@ The format is based on [Keep a changelog](https://keepachangelog.com/en/1.0.0), 
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
 
+## [1.0.10] 05-04-2021
+### Changed
+- Semantic html refactoring to the `blogs.html` file.
+- Minor fixes across all pages.
+
 ## [1.0.9] 05-04-2021
 ### Changed
 - Major semantic html refactoring to the `resources.html` file to make the page more responsive across mobile and desktop.
