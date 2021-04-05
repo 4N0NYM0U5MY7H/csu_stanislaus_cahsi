@@ -16,6 +16,12 @@ The format is based on [Keep a changelog](https://keepachangelog.com/en/1.0.0), 
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
 
+## [1.0.9] 05-04-2021
+### Changed
+- Major semantic html refactoring to the `resources.html` file to make the page more responsive across mobile and desktop.
+- Removed `vendor` subdirectory to reduce chaining and increase site performance. Vendor related files are still stored in their respective subdirectories within the `assets` directory.
+- Fixed an issue in `main.css` addressing the wrong class. Should be adding to `.jumbotron` and not `.nav-brand`. 
+
 ## [1.0.8] 03-04-2021
 ### Changed
 - Major semantic html refactoring to the `index.html` file to make the homepage more responsive across mobile and desktop.
