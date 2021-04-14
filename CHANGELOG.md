@@ -1,32 +1,52 @@
 # CAHSI website changelog
 All notable changes to this site will be documented in this file.
 
-The format is based on [Keep a changelog](https://keepachangelog.com/en/1.0.0), and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+Please note that the version numbering is not for the benefit of the end user, but rather for internal documentation and accountability for further maintainers.
 
 ## [Unrealeased]
-- Add current upcoming events
 - Update Resources page with more content
 - Update to current CAHSI club team members
 - Integrate the `main.css` file after further testing.
-- Restore `bootstrap-4.4.1.css` to it's original state.
-  -- this should be unaltered as it becomes difficult to track changes within this library. Any changes should be made to `main.css` to overide that of the bootstrap library.
 - Investigate the `rounded-image` css class to ensure it is working properly.  Students should not have to edit this effect in Photoshop.
 - Load commonly used html elements from separate files to reduce code duplication.
   -- Needs strenous testing to ensure it works across as many platforms as possible.  Current state is ok.
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
 
-## [1.0.9] 05-04-2021
+## [2021.3.1] Live Site Update 13-04-2021
+### Changed
+- Restored `bootstrap-4.4.1.css` to its original state. All modified css was added to `main.css`.
+- Minified vedor css and js files to increase performance.
+- Current events on the main page.
+
+### Added
+- `events.html` to host an events page on the site. Pushed changes to the live site so visitors can gain the most benefit from this change.
+
+## [2021.3.0] 12-04-2021
+### Changed
+- Renamed the `assets` directory to `vendor`.
+- Moved `style`, `image`, and `script` to root to increase performance on mobile devices.
+- Fixed relative links across the site's pages.
+
+## Live Site Update 11-04-2021
+- Pushed the changes to be live on the server.
+
+## [2021.2.1] 05-04-2021
+### Changed
+- Semantic html refactoring to the `blogs.html` file.
+- Minor fixes across all pages.
+
+## [2021.2.0] 05-04-2021
 ### Changed
 - Major semantic html refactoring to the `resources.html` file to make the page more responsive across mobile and desktop.
 - Removed `vendor` subdirectory to reduce chaining and increase site performance. Vendor related files are still stored in their respective subdirectories within the `assets` directory.
 - Fixed an issue in `main.css` addressing the wrong class. Should be adding to `.jumbotron` and not `.nav-brand`. 
 
-## [1.0.8] 03-04-2021
+## [2021.1.4] 03-04-2021
 ### Changed
 - Major semantic html refactoring to the `index.html` file to make the homepage more responsive across mobile and desktop.
 
-## [1.0.7] 02-04-2021
+## [2021.1.3] 02-04-2021
 ### Changed
 - Fixed an issue within the html structure of the `resources.html` file.
 
@@ -38,7 +58,7 @@ The format is based on [Keep a changelog](https://keepachangelog.com/en/1.0.0), 
 -- Device width sm(576px to 767px) displays the colorful logo with CAHSI text.
 -- Device width md(768px) and larger displays the full CAHSI logo, including the full name.
 
-## [1.0.5] 30-03-2021
+## [2021.1.3] 30-03-2021
 ### Changed
 - Entire site support for boostrap 4.4.1 and jquery 3.4.1.
 - Updated `resources.html` and `blogs.html` relative links to work with new asset locations.
@@ -48,7 +68,7 @@ The format is based on [Keep a changelog](https://keepachangelog.com/en/1.0.0), 
 ### Added
 - Copyright section to `index.html`. Need style changes, but thats for a later.
 
-## [1.0.4] 30-03-2021
+## [2021.1.2] 30-03-2021
 ### Changed
 - Renamed images to fit within reccommended standards, i.e. no spaces or underscores in the names.
 - Updated `boostrap-4.4.1.css` and `main.css` relative url paths to point to the correct locatoins.
@@ -56,7 +76,7 @@ The format is based on [Keep a changelog](https://keepachangelog.com/en/1.0.0), 
 - Updated image alt text to be compliant with [w3.org](https://www.w3.org/WAI/tutorials/images/) standards.
 - Moved the snapwidget script to load last in the list.  It requires jQuery to work properly and it's old location was easy to miss within the html.
 
-## [1.0.3] 29-03-2021
+## [2021.1.1] 29-03-2021
 ### Added
 - CAHSI logo as favicon to the site.
 - `tests` directory for experimental features. This will keep the main website directory clean when adding new features or making other related changes.
@@ -67,7 +87,7 @@ The format is based on [Keep a changelog](https://keepachangelog.com/en/1.0.0), 
 - Extracted the student modified code within `bootstrap-4.4.1.css` and placed it into `main.css` file.
   -- import order should be `boostrap-4.4.1.css` and then `main.css` to reflect the neccesarry changes.
 
-## [1.0.2] 28-03-2021
+## [2021.1.0] 28-03-2021
 ### Removed
 - Removed Mac OS resource fork files created when saving to networked, external, or shared drives.
 - Removed Mac OS directory settings files.
@@ -80,7 +100,7 @@ The format is based on [Keep a changelog](https://keepachangelog.com/en/1.0.0), 
 - `/assets` includes site files and resources.
 - `/assets/vendor` includes site dependancies.
 
-## [1.0.1] 27-03-2021
+## [2021.0.0] 27-03-2021
 ### Added
 - [MIT License](https://choosealicense.com/licenses/mit/) for flexible open source legal option.
 - This CHANGELOG file to track changes made to site over time.
