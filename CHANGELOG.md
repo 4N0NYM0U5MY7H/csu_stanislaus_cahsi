@@ -1,19 +1,26 @@
 # CAHSI website changelog
 All notable changes to this site will be documented in this file.
 
+Please note that the version numbering is not for the benefit of the end user, but rather for internal documentation and accountability for further maintainers.
+
 ## [Unrealeased]
-- Add current upcoming events
-  -- Create an events calendar page
 - Update Resources page with more content
 - Update to current CAHSI club team members
 - Integrate the `main.css` file after further testing.
-- Restore `bootstrap-4.4.1.css` to it's original state.
-  -- this should be unaltered as it becomes difficult to track changes within this library. Any changes should be made to `main.css` to overide that of the bootstrap library.
 - Investigate the `rounded-image` css class to ensure it is working properly.  Students should not have to edit this effect in Photoshop.
 - Load commonly used html elements from separate files to reduce code duplication.
   -- Needs strenous testing to ensure it works across as many platforms as possible.  Current state is ok.
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
+
+## [2021.3.1] Live Site Update 13-04-2021
+### Changed
+- Restored `bootstrap-4.4.1.css` to its original state. All modified css was added to `main.css`.
+- Minified vedor css and js files to increase performance.
+- Current events on the main page.
+
+### Added
+- `events.html` to host an events page on the site. Pushed changes to the live site so visitors can gain the most benefit from this change.
 
 ## [2021.3.0] 12-04-2021
 ### Changed
