@@ -4,6 +4,7 @@ All notable changes to this site will be documented in this file.
 Please note that the version numbering is not for the benefit of the end user, but rather for internal documentation and accountability for further maintainers.
 
 ## [Unrealeased]
+- Add sort, search, & filter to `events.html`
 - Update Resources page with more content
 - Update to current CAHSI club team members
 - Integrate the `main.css` file after further testing.
@@ -12,6 +13,15 @@ Please note that the version numbering is not for the benefit of the end user, b
   -- Needs strenous testing to ensure it works across as many platforms as possible.  Current state is ok.
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
+
+## [2021.3.3] Live Site Update 18-04-2021
+### Fixed
+- Corrected asset links on all internal pages that are currently under development.
+- Formatted and performed bug fiexes on all internal pages that are currently under development. 
+
+## [2021.3.2] Live Site Update 15-04-2021
+### Fixed
+- Issue causing the mobile navigation menu to not display properly.
 
 ## [2021.3.1] Live Site Update 13-04-2021
 ### Changed
@@ -26,7 +36,9 @@ Please note that the version numbering is not for the benefit of the end user, b
 ### Changed
 - Renamed the `assets` directory to `vendor`.
 - Moved `style`, `image`, and `script` to root to increase performance on mobile devices.
-- Fixed relative links across the site's pages.
+
+### Fixed 
+- Relative links across the site's pages.
 
 ## Live Site Update 11-04-2021
 - Pushed the changes to be live on the server.
@@ -34,21 +46,25 @@ Please note that the version numbering is not for the benefit of the end user, b
 ## [2021.2.1] 05-04-2021
 ### Changed
 - Semantic html refactoring to the `blogs.html` file.
-- Minor fixes across all pages.
+
+### Fixed
+- Minor issues across all pages.
 
 ## [2021.2.0] 05-04-2021
 ### Changed
 - Major semantic html refactoring to the `resources.html` file to make the page more responsive across mobile and desktop.
 - Removed `vendor` subdirectory to reduce chaining and increase site performance. Vendor related files are still stored in their respective subdirectories within the `assets` directory.
-- Fixed an issue in `main.css` addressing the wrong class. Should be adding to `.jumbotron` and not `.nav-brand`. 
+
+### Fixed 
+- Issue in `main.css` addressing the wrong class. Should be adding to `.jumbotron` and not `.nav-brand`. 
 
 ## [2021.1.4] 03-04-2021
 ### Changed
 - Major semantic html refactoring to the `index.html` file to make the homepage more responsive across mobile and desktop.
 
 ## [2021.1.3] 02-04-2021
-### Changed
-- Fixed an issue within the html structure of the `resources.html` file.
+### Fixed
+- Issue within the html structure of the `resources.html` file causing performance bottlenecks.
 
 ## [1.0.6] 31-03-2021
 ### Changed
@@ -62,8 +78,10 @@ Please note that the version numbering is not for the benefit of the end user, b
 ### Changed
 - Entire site support for boostrap 4.4.1 and jquery 3.4.1.
 - Updated `resources.html` and `blogs.html` relative links to work with new asset locations.
-- Fixed minor issues with the navbar not working correctly.
 - Updated the copyright section in the footer.
+
+### Fixed
+- Minor issues with the navbar not working correctly.
 
 ### Added
 - Copyright section to `index.html`. Need style changes, but thats for a later.
