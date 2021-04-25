@@ -15,7 +15,11 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
 
-## [2021.04.25] Update 25-04-2021
+## [2021.04.25a] 25-04-2021
+### Fixed
+- Navbar issue on `blog.html`.
+
+## [2021.04.25] 25-04-2021
 ### Changed
 - Renamed `blogs.html` to the singular. Reflected the changes across all site links.
 - Renamed temporary blog pages to the post title in preparation for publishing the live blog section of the site.
