@@ -5,14 +5,27 @@ Please note that the version numbering is not for the benefit of the end user, b
 
 ## [Unrealeased]
 - Add sort, search, & filter to `events.html`
+- Events and Resources pages will be split into separate pages.
+  -- `upcoming-events.html` & `past-events.html` pages to be published via AJAX.
+  -- `resources.html ` & `internships.html` & `scholarships.html` & `research.html` pages...More planning required.  
 - Update Resources page with more content
 - Update to current CAHSI club team members
-- Integrate the `main.css` file after further testing.
-- Investigate the `rounded-image` css class to ensure it is working properly.  Students should not have to edit this effect in Photoshop.
 - Load commonly used html elements from separate files to reduce code duplication.
   -- Needs strenous testing to ensure it works across as many platforms as possible.  Current state is ok.
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
+
+## [2021.04.25] Update 25-04-2021
+### Changed
+- Renamed `blogs.html` to the singular. Reflected the changes across all site links.
+- Renamed temporary blog pages to the post title in preparation for publishing the live blog section of the site.
+- Minor internal structure changes to increase site performance, with a focus on mobile.
+- Minor sitewide pages changes to improve SEO and accessibility.
+- Switched strictly to `bootstrap.bundle.min.js` in favor of loading poper and boostrap seperately.
+
+### Added
+- Template for blog posts.
+- Favicon support for web, mobile, desktop--including ipad, ios, macos, android, windows 8 & 10.
 
 ## [2021.04.21] Live Site Update 18-04-2021
 ### Changed
