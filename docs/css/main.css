@@ -118,6 +118,7 @@ body {
           HEADERS & HEADINGS
 ================================================================================*/
 .jumbotron {
+    color: #fff;
     margin: 0;
     border-radius: 0;
     background-image: url("../img/StudentsTech4.jpg") !important;

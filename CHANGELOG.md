@@ -15,6 +15,14 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
 
+## [2021.04.26] Live Site Update 26-04-2021
+### Changed
+- Updated homepage banner for upcoming Warriors in Tech event.
+- Updated CSS to reduce inline style calls across the site.
+- Removed extra bootstrap and popper js files.
+- Removed images that have been replaced.
+- Removed evo-calendar files.
+
 ## [2021.04.25a] 25-04-2021
 ### Fixed
 - Navbar issue on `blog.html`.
