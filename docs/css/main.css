@@ -26,10 +26,29 @@ a:focus, a:hover {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
+    line-height: 1.5rem;
+    color: #212529;
     background-color: #fff;
+}
+
+footer .social a {
+    color:  #999;
+    text-decoration: none !important;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+}
+
+footer .social a:hover {
+    background: #555;
+    color: #fff;
+    font-size: 0.65rem;
 }
 
 #blog-post #post-content{
@@ -49,16 +68,74 @@ body {
     font-weight: 700;
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+}
+  
+h1, .h1 {
+    font-size: 2.2rem;
+}
+  
+h2, .h2 {
+    font-size: 1.8rem;
+}
+  
+h3, .h3 {
+    font-size: 1.5rem;
+}
+  
+h4, .h4 {
+    font-size: 1.1rem;
+}
+  
+h5, .h5 {
+    font-size: 1rem;
+}
+  
+h6, .h6 {
+    font-size: 0.8rem;
+}
+  
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .bar {
     padding: 60px 0;
 }
 
-.bar.padding-big {
+.bar .padding-big {
     padding: 50px 0;
+}
+
+.padding-horizontal {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
 }
 
 .mb-small {
     margin-bottom: 20px !important;
+}
+
+.portfolio-showcase {
+    margin-bottom: 60px;
+}
+
+.bg-fixed {
+    background-attachment: fixed !important;
+}
+
+.position-relative {
+    z-index: 1;
 }
 /*================================================================================
           CARD
@@ -121,11 +198,36 @@ body {
     color: #fff;
     margin: 0;
     border-radius: 0;
-    background-image: url("../img/StudentsTech4.jpg") !important;
+    background-image: url("../img/StudentsTech4.jpg");
 }
 
-.jumbotron #insta {
-    background-image: url("../img/background-code.jpg") !important;
+.jumbotron h1, .jumbotron h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.jumbotron p {
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+}
+
+.insta-tron {
+    padding: 2rem 1rem;
+    margin: 0;
+    color: #fff;
+    border-radius: 0;
+    background: url("../img/bg-instagram.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.dark-mask {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 #heading-breadcrumbs {
@@ -150,4 +252,23 @@ body {
 #heading-breadcrumbs li {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+}
+
+.heading, .panel-heading {
+    margin-bottom: 1rem;
+}
+
+.heading h1, .heading h2, .heading h3, .heading h4, .heading h5, .heading h6,
+.panel-heading h1, .panel-heading h2, .panel-heading h3, .panel-heading h4, .panel-heading, h5, .panel-heading h6 {
+    line-height: 1.1;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.heading .text-center h1:after, .heading .text-center h2:after, .heading .text-center h3:after, .heading .text-center h4:after, .heading .text-center h5:center, .heading .text-center h6:after,
+.text-center .panel-heading h1:after, .text-center .panel-heading h2:after, .text-center .panel-heading h3:after, .text-center .panel-heading h4:after, .text-center .panel-heading h5:after, .text-center .panel-heading h6:after {
+    margin-left: auto;
+    margin-right: auto;
 }

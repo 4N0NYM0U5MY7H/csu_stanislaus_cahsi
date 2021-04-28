@@ -6,14 +6,21 @@ Please note that the version numbering is not for the benefit of the end user, b
 ## [Unrealeased]
 - Add sort, search, & filter to `events.html`
 - Events and Resources pages will be split into separate pages.
-  -- `upcoming-events.html` & `past-events.html` pages to be published via AJAX.
-  -- `resources.html ` & `internships.html` & `scholarships.html` & `research.html` pages...More planning required.  
+  - `upcoming-events.html` & `past-events.html` pages to be published via AJAX.
+  - `resources.html ` & `internships.html` & `scholarships.html` & `research.html` pages...More planning required.
+- Change site wide headers to be consistent.
+  - breadcrumb heaings on subpages, possible carousel on homepage, and jumbotron on all other parent pages? To be determined...
 - Update Resources page with more content
 - Update to current CAHSI club team members
 - Load commonly used html elements from separate files to reduce code duplication.
-  -- Needs strenous testing to ensure it works across as many platforms as possible.  Current state is ok.
+  - Needs strenous testing to ensure it works across as many platforms as possible.  Current state is ok.
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
+
+## [2021.04.27] Live Site Update 27-04-2021
+### Changed
+- Updated `students-in-tech.html` in preparation for this year's event.
+- General style update across the site.
 
 ## [2021.04.26] Live Site Update 26-04-2021
 ### Changed
@@ -100,9 +107,9 @@ Please note that the version numbering is not for the benefit of the end user, b
 ### Changed
 - Moved the nav links to the right side of the nav bar for device wider than 992px.
 - Navbar responsive logo across the live pages of the site.  Depending on the device view width, you'll now see various versions of the CAHSI logo.
--- Device width xs(<576px) displays only the colorful logo, no text.
--- Device width sm(576px to 767px) displays the colorful logo with CAHSI text.
--- Device width md(768px) and larger displays the full CAHSI logo, including the full name.
+  - Device width xs(<576px) displays only the colorful logo, no text.
+  - Device width sm(576px to 767px) displays the colorful logo with CAHSI text.
+  - Device width md(768px) and larger displays the full CAHSI logo, including the full name.
 
 ## [2021.03.30] 30-03-2021
 ### Changed
@@ -133,15 +140,15 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Moved the CAHSI logo from the root directory into `assets/images`.
 - Included vendor names within `assets/vendor` directory.
 - Extracted the student modified code within `bootstrap-4.4.1.css` and placed it into `main.css` file.
-  -- import order should be `boostrap-4.4.1.css` and then `main.css` to reflect the neccesarry changes.
+  - import order should be `boostrap-4.4.1.css` and then `main.css` to reflect the neccesarry changes.
 
 ## [2021.03.28] 28-03-2021
 ### Removed
 - Removed Mac OS resource fork files created when saving to networked, external, or shared drives.
 - Removed Mac OS directory settings files.
-  -- Mac OS filesytems (HFS) create two types of file information, a resource fork and a data fork.  The data fork contains the data, i.e. the text in a word document, while the resource fork contains the meta-data, i.e. author of the file.
-  -- `._`Files are contain the metadata.
-  -- `.DS_Store` contains folder specific settings
+  - Mac OS filesytems (HFS) create two types of file information, a resource fork and a data fork.  The data fork contains the data, i.e. the text in a word document, while the resource fork contains the meta-data, i.e. author of the file.
+  - `._`Files are contain the metadata.
+  - `.DS_Store` contains folder specific settings
 
 ### Changed
 - Added subdirectories for increased organization and maintainability.
