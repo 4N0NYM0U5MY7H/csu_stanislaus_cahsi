@@ -1,6 +1,6 @@
-# ignore tests directory
-# This is a purely experimental playground
-tests/
+# ignore development & experimental files
+[Tt]ests/
+[Tt]emplates/
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,visualstudio,visualstudiocode,dreamweaver,git
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,visualstudio,visualstudiocode,dreamweaver,git

@@ -17,6 +17,16 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Incorporate font-awesome for icons, such as the social media in the footer section. 
 - Create page templates to easily add new sections to the site. 
 
+## [2021.05.02] Live Site Update 02-05-2021
+### Changed
+- Semantic structure across multiple pages.
+- Final update to the `students-in-tech` page.
+- Minor style changes.
+
+### Fixed
+- Navbar logo not correctly pointing to home page.
+
+
 ## [2021.04.27] Live Site Update 27-04-2021
 ### Changed
 - Updated `students-in-tech.html` in preparation for this year's event.
