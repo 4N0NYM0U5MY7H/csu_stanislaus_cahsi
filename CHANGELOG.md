@@ -11,20 +11,49 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Change site wide headers to be consistent.
   - breadcrumb heaings on subpages, possible carousel on homepage, and jumbotron on all other parent pages? To be determined...
 - Update Resources page with more content
-- Update to current CAHSI club team members
-- Load commonly used html elements from separate files to reduce code duplication.
-  - Needs strenous testing to ensure it works across as many platforms as possible.  Current state is ok.
-- Incorporate font-awesome for icons, such as the social media in the footer section. 
+- Update to current CAHSI club team members 
 - Create page templates to easily add new sections to the site. 
 
-## [2021.05.03] Live Site Update 03-05-2021
+---
+## 21.07.13 — 13.07.2021
+---
+### Changed
+- Update site navbar.
+  - made "sticky"
+  - style changes for large screens.
+  - logo size for medium screens.
+- Removed support for `evo-calendar` in the `main.js` file.
+- Replaced homepage embedded form with a custom responsive form.
+
+### Added
+- HTML 5 & CSS 3 support on Internet Explorer 8 and older.
+
+### Fixed
+- Typo on main page navbar. 
+
+---
+## 21.07.12 — 12-07-2021
+---
+### Changed
+- Consolidated `vendor` javascript and css files into `js` and `css` directories respectively.
+- Added fontawesome icon support.
+- Update site footer.
+  - Now uses icons in place of images
+- Update footer contact link.
+  - Added subject line and body content for e-mail.
+
+---
+## 21.05.03 — Live Site Update 03-05-2021
+---
 ### Changed
 - Main page header to promote upcoming Students in Tech event.
 
 ### Fixed
 - Registration link for the event!
 
-## [2021.05.02] Live Site Update 02-05-2021
+---
+## 21.05.02 — Live Site Update 02-05-2021
+---
 ### Changed
 - Semantic structure across multiple pages.
 - Final update to the `students-in-tech` page.
@@ -33,13 +62,16 @@ Please note that the version numbering is not for the benefit of the end user, b
 ### Fixed
 - Navbar logo not correctly pointing to home page.
 
-
-## [2021.04.27] Live Site Update 27-04-2021
+---
+## 21.04.27 — Live Site Update 27-04-2021
+---
 ### Changed
 - Updated `students-in-tech.html` in preparation for this year's event.
 - General style update across the site.
 
-## [2021.04.26] Live Site Update 26-04-2021
+---
+## 21.04.26 — Live Site Update 26-04-2021
+---
 ### Changed
 - Updated homepage banner for upcoming Warriors in Tech event.
 - Updated CSS to reduce inline style calls across the site.
@@ -47,11 +79,15 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Removed images that have been replaced.
 - Removed evo-calendar files.
 
-## [2021.04.25a] 25-04-2021
+---
+## 21.04.25a — 25-04-2021
+---
 ### Fixed
 - Navbar issue on `blog.html`.
 
-## [2021.04.25] 25-04-2021
+---
+## 21.04.25 — 25-04-2021
+---
 ### Changed
 - Renamed `blogs.html` to the singular. Reflected the changes across all site links.
 - Renamed temporary blog pages to the post title in preparation for publishing the live blog section of the site.
@@ -63,21 +99,29 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Template for blog posts.
 - Favicon support for web, mobile, desktop--including ipad, ios, macos, android, windows 8 & 10.
 
-## [2021.04.21] Live Site Update 18-04-2021
+---
+## 21.04.21 — Live Site Update 18-04-2021
+---
 ### Changed
 - Navbar style change from dark to light.
 - Homepage banner to include an upcoming event.
 
-## [2021.04.18] Live Site Update 18-04-2021
+---
+## 21.04.18 — Live Site Update 18-04-2021
+---
 ### Fixed
 - Corrected asset links on all internal pages that are currently under development.
 - Formatted and performed bug fiexes on all internal pages that are currently under development. 
 
-## [2021.04.15] Live Site Update 15-04-2021
+---
+## 21.04.15 — Live Site Update 15-04-2021
+---
 ### Fixed
 - Issue causing the mobile navigation menu to not display properly.
 
-## [2021.04.13] Live Site Update 13-04-2021
+---
+## 21.04.13 — Live Site Update 13-04-2021
+---
 ### Changed
 - Restored `bootstrap-4.4.1.css` to its original state. All modified css was added to `main.css`.
 - Minified vedor css and js files to increase performance.
@@ -86,7 +130,9 @@ Please note that the version numbering is not for the benefit of the end user, b
 ### Added
 - `events.html` to host an events page on the site. Pushed changes to the live site so visitors can gain the most benefit from this change.
 
-## [2021.04.12] 12-04-2021
+---
+## 21.04.12 — 12-04-2021
+---
 ### Changed
 - Renamed the `assets` directory to `vendor`.
 - Moved `style`, `image`, and `script` to root to increase performance on mobile devices.
@@ -97,14 +143,18 @@ Please note that the version numbering is not for the benefit of the end user, b
 ## Live Site Update 11-04-2021
 - Pushed the changes to be live on the server.
 
-## [2021.04.05a] 05-04-2021
+---
+## 21.04.05a — 05-04-2021
+---
 ### Changed
 - Semantic html refactoring to the `blogs.html` file.
 
 ### Fixed
 - Minor issues across all pages.
 
-## [2021.04.05] 05-04-2021
+---
+## 21.04.05 — 05-04-2021
+---
 ### Changed
 - Major semantic html refactoring to the `resources.html` file to make the page more responsive across mobile and desktop.
 - Removed `vendor` subdirectory to reduce chaining and increase site performance. Vendor related files are still stored in their respective subdirectories within the `assets` directory.
@@ -112,15 +162,21 @@ Please note that the version numbering is not for the benefit of the end user, b
 ### Fixed 
 - Issue in `main.css` addressing the wrong class. Should be adding to `.jumbotron` and not `.nav-brand`. 
 
-## [2021.04.03] 03-04-2021
+---
+## 21.04.03 — 03-04-2021
+---
 ### Changed
 - Major semantic html refactoring to the `index.html` file to make the homepage more responsive across mobile and desktop.
 
-## [2021.04.02] 02-04-2021
+---
+## 21.04.02 — 02-04-2021
+---
 ### Fixed
 - Issue within the html structure of the `resources.html` file causing performance bottlenecks.
 
-## [2021.03.31] 31-03-2021
+---
+## 21.03.31 — 31-03-2021
+---
 ### Changed
 - Moved the nav links to the right side of the nav bar for device wider than 992px.
 - Navbar responsive logo across the live pages of the site.  Depending on the device view width, you'll now see various versions of the CAHSI logo.
@@ -128,7 +184,9 @@ Please note that the version numbering is not for the benefit of the end user, b
   - Device width sm(576px to 767px) displays the colorful logo with CAHSI text.
   - Device width md(768px) and larger displays the full CAHSI logo, including the full name.
 
-## [2021.03.30] 30-03-2021
+---
+## 21.03.30 — 30-03-2021
+---
 ### Changed
 - Entire site support for boostrap 4.4.1 and jquery 3.4.1.
 - Updated `resources.html` and `blogs.html` relative links to work with new asset locations.
@@ -140,7 +198,9 @@ Please note that the version numbering is not for the benefit of the end user, b
 ### Added
 - Copyright section to `index.html`. Need style changes, but thats for a later.
 
-## [2021.03.30] 30-03-2021
+---
+## 21.03.30 — 30-03-2021
+---
 ### Changed
 - Renamed images to fit within reccommended standards, i.e. no spaces or underscores in the names.
 - Updated `boostrap-4.4.1.css` and `main.css` relative url paths to point to the correct locatoins.
@@ -148,7 +208,9 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Updated image alt text to be compliant with [w3.org](https://www.w3.org/WAI/tutorials/images/) standards.
 - Moved the snapwidget script to load last in the list.  It requires jQuery to work properly and it's old location was easy to miss within the html.
 
-## [2021.03.29] 29-03-2021
+---
+## 21.03.29 — 29-03-2021
+---
 ### Added
 - CAHSI logo as favicon to the site.
 - `tests` directory for experimental features. This will keep the main website directory clean when adding new features or making other related changes.
@@ -159,7 +221,9 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Extracted the student modified code within `bootstrap-4.4.1.css` and placed it into `main.css` file.
   - import order should be `boostrap-4.4.1.css` and then `main.css` to reflect the neccesarry changes.
 
-## [2021.03.28] 28-03-2021
+---
+## 21.03.28 — 28-03-2021
+---
 ### Removed
 - Removed Mac OS resource fork files created when saving to networked, external, or shared drives.
 - Removed Mac OS directory settings files.
@@ -172,7 +236,9 @@ Please note that the version numbering is not for the benefit of the end user, b
 - `/assets` includes site files and resources.
 - `/assets/vendor` includes site dependancies.
 
-## [2021.03.27] 27-03-2021
+---
+## 21.03.27 — 27-03-2021
+---
 ### Added
 - [MIT License](https://choosealicense.com/licenses/mit/) for flexible open source legal option.
 - This CHANGELOG file to track changes made to site over time.

@@ -7,10 +7,8 @@
 /*================================================================================
           GENERAL STYLE & FONT / TEXT 
 ================================================================================*/
-@font-face {
-    font-family: "Roboto", sans-serif;
-    src: local("Roboto-Regular.ttf"), url("https://fonts.googleapi.com/css2?family=Roboto&display=swap");
-}
+@import url("https://fonts.googleapi.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 a {
     -webkit-transition: all 0.3s !important;
@@ -19,8 +17,8 @@ a {
     color: #467fbf;
     text-decoration: none;
 }
-
-a:focus, a:hover {
+a:focus,
+a:hover {
     color: #2f5a89;
     text-decoration: underline;
 }
@@ -35,7 +33,7 @@ body {
 }
 
 footer .social a {
-    color:  #999;
+    color: #999;
     text-decoration: none !important;
     border-radius: 50%;
     text-align: center;
@@ -44,14 +42,13 @@ footer .social a {
     line-height: 50px;
     margin: 0 10px;
 }
-
 footer .social a:hover {
     background: #555;
     color: #fff;
     font-size: 0.65rem;
 }
 
-#blog-post #post-content{
+#blog-post #post-content {
     margin-bottom: 25px;
 }
 
@@ -68,38 +65,55 @@ footer .social a:hover {
     font-weight: 700;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 1rem;
     font-family: inherit;
     font-weight: 700;
     line-height: 1.1;
     color: inherit;
 }
-  
-h1, .h1 {
+
+.h1,
+h1 {
     font-size: 2.2rem;
 }
-  
-h2, .h2 {
+
+.h2,
+h2 {
     font-size: 1.8rem;
 }
-  
-h3, .h3 {
+
+.h3,
+h3 {
     font-size: 1.5rem;
 }
-  
-h4, .h4 {
+
+.h4,
+h4 {
     font-size: 1.1rem;
 }
-  
-h5, .h5 {
+
+.h5,
+h5 {
     font-size: 1rem;
 }
-  
-h6, .h6 {
+
+.h6,
+h6 {
     font-size: 0.8rem;
 }
-  
+
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
@@ -146,12 +160,10 @@ hr {
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0;
 }
-
 .card > .list-group:first-child .list-group-item:first-child {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
-
 .card > .list-group:last-child .list-group-item:last-child {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
@@ -164,7 +176,12 @@ hr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.card-header h1, .card-header h2, .card-header h3, .card-header h4, .card-header h5, .card-header h6 {
+.card-header h1,
+.card-header h2,
+.card-header h3,
+.card-header h4,
+.card-header h5,
+.card-header h6 {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 1rem;
@@ -192,6 +209,69 @@ hr {
     margin-top: -0.375rem;
 }
 /*================================================================================
+          FORMS
+================================================================================*/
+.form-control {
+    border-radius: 0;
+}
+.form-control:focus {
+    border-color: #467fbf;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.25);
+}
+
+.form-group label {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+input[type="submit"] {
+    font-family: FontAwesome;
+}
+/*================================================================================
+          BUTTONS
+================================================================================*/
+button {
+    cursor: pointer;
+}
+
+.buttons a {
+    margin: 0 3px;
+}
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.btn-outlined {
+    background: none;
+    border: 1px solid #467fbf !important;
+    color: #467fbf;
+    border-radius: 0 !important;
+    text-decoration: none;
+}
+  
+.btn-outlined:hover,
+.btn-outlined:focus {
+    background: #467fbf;
+    color: #fff !important;
+}
+
+.btn-outlined-black {
+    background: none;
+    border: 1px solid #333 !important;
+    color: #333;
+    border-radius: 0 !important;
+    text-decoration: none;
+}
+
+.btn-outlined-black:hover,
+.btn-outlined-black:focus {
+    background: #333 !important;
+    color: #fff !important;
+}
+/*================================================================================
           HEADERS & HEADINGS
 ================================================================================*/
 .jumbotron {
@@ -202,7 +282,8 @@ hr {
     background-size: cover;
 }
 
-.jumbotron h1, .jumbotron h2 {
+.jumbotron h1,
+.jumbotron h2 {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
@@ -265,21 +346,42 @@ hr {
     letter-spacing: 0.1rem;
 }
 
-.heading, .panel-heading {
+.heading,
+.panel-heading {
     margin-bottom: 1rem;
 }
 
-.heading h1, .heading h2, .heading h3, .heading h4, .heading h5, .heading h6,
-.panel-heading h1, .panel-heading h2, .panel-heading h3, .panel-heading h4, .panel-heading, h5, .panel-heading h6 {
+.heading h1,
+.heading h2,
+.heading h3,
+.heading h4,
+.heading h5,
+.heading h6,
+.panel-heading,
+.panel-heading h1,
+.panel-heading h2,
+.panel-heading h3,
+.panel-heading h4,
+.panel-heading h6,
+h5 {
     line-height: 1.1;
     margin-bottom: 0;
     padding-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
-
-.heading .text-center h1:after, .heading .text-center h2:after, .heading .text-center h3:after, .heading .text-center h4:after, .heading .text-center h5:center, .heading .text-center h6:after,
-.text-center .panel-heading h1:after, .text-center .panel-heading h2:after, .text-center .panel-heading h3:after, .text-center .panel-heading h4:after, .text-center .panel-heading h5:after, .text-center .panel-heading h6:after {
+.heading .text-center h1:after,
+.heading .text-center h2:after,
+.heading .text-center h3:after,
+.heading .text-center h4:after,
+.heading .text-center h5:center,
+.heading .text-center h6:after,
+.text-center .panel-heading h1:after,
+.text-center .panel-heading h2:after,
+.text-center .panel-heading h3:after,
+.text-center .panel-heading h4:after,
+.text-center .panel-heading h5:after,
+.text-center .panel-heading h6:after {
     margin-left: auto;
     margin-right: auto;
 }
