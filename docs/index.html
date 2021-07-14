@@ -356,44 +356,53 @@
         </div>
       </section>
 
-      <section id="join">
-        <div class="container text-center">
-          <div class="row background-pentagon position-relative">
-            <span class="light-mask"></span>
-            <div class="col-12 col-md-8 mx-auto">
-              <div class="row">
-                <div class="col-12">
-                  <h2>Become a Member</h2>
-                </div>
-                <div class="col-12">
-                  <iframe width="640px" height="480px"
-                    src="https://forms.office.com/Pages/ResponsePage.aspx?id=B2nlvt8T8kqkv9fvDevAHJBpamMWBPFFh2P9KiDpKetUQjdESkw2Q0g3OVRFMDE4UjVIWDkzNTZKUy4u&embed=true"
-                    frameborder="0" marginwidth="0" marginheight="0"
-                    style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen
-                    mozallowfullscreen msallowfullscreen> </iframe>
-
-                  <!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
-                  <!--<form id="feedbackForm" class="text-center">
-                  <div class="form-group">
-                    <label for="name" style="color:aliceblue">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" aria-describedby="nameHelp">
-                    <span id="nameHelp" class="form-text text-muted" style="display: none;">Please enter your name.</span>
-                  </div>
-                  <div class="form-group">
-                    <label for="email" style="color:aliceblue">E-Mail</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" aria-describedby="emailHelp">
-                    <span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span>
-                  </div>
-                  <div class="form-group">
-                    <label for="message" style="color:aliceblue">Tell us about yourself</label>
-                    <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Message" aria-describedby="messageHelp"></textarea>
-                    <span id="messageHelp" class="form-text text-muted" style="display: none;">Please enter a message.</span>
-                  </div>
-                  <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg"> Send</button>
-                  </form>-->
-
-                </div>
+      <section id="join" class="bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading text-center">
+                <h2>Become a Member</h2>
               </div>
+            </div>
+            <div class="col-md-8 mx-auto">
+              <form action="mailto:cahsi-president@csustan.edu?subject=Become%20a%20Member" method="POST"
+                enctype="text/plain">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="firstname">First Name</label>
+                      <input id="firstname" name="firstname" type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="lastname">Last Name</label>
+                      <input id="lastname" name="lastname" type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input id="email" name="email" type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="subject">Subject</label>
+                      <input id="subject" name="subject" type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="body" class="form-control"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 text-center">
+                    <input type="submit" value="&#xf003 Send message" class="btn btn-outlined">
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>

@@ -11,11 +11,25 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Change site wide headers to be consistent.
   - breadcrumb heaings on subpages, possible carousel on homepage, and jumbotron on all other parent pages? To be determined...
 - Update Resources page with more content
-- Update to current CAHSI club team members
-- Load commonly used html elements from separate files to reduce code duplication.
-  - Needs strenous testing to ensure it works across as many platforms as possible.  Current state is ok.
-- Incorporate font-awesome for icons, such as the social media in the footer section. 
+- Update to current CAHSI club team members 
 - Create page templates to easily add new sections to the site. 
+
+---
+## 21.07.13 — 13.07.2021
+---
+### Changed
+- Update site navbar.
+  - made "sticky"
+  - style changes for large screens.
+  - logo size for medium screens.
+- Removed support for `evo-calendar` in the `main.js` file.
+- Replaced homepage embedded form with a custom responsive form.
+
+### Added
+- HTML 5 & CSS 3 support on Internet Explorer 8 and older.
+
+### Fixed
+- Typo on main page navbar. 
 
 ---
 ## 21.07.12 — 12-07-2021
