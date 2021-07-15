@@ -159,6 +159,33 @@ hr {
 .bg-white {
     background: #fff !important;
 }
+
+.team-member {
+    margin-bottom: 40px;
+}
+  
+.team-member .image {
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 5px;
+}
+  
+.team-member p.role {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 0;
+}
+  
+.team-member p {
+    color: #999;
+    font-size: 0.8rem;
+}
 /*================================================================================
           CARD
 ================================================================================*/
@@ -415,7 +442,7 @@ h5 {
 .heading .text-center h2:after,
 .heading .text-center h3:after,
 .heading .text-center h4:after,
-.heading .text-center h5:center,
+.heading .text-center h5:after,
 .heading .text-center h6:after,
 .text-center .panel-heading h1:after,
 .text-center .panel-heading h2:after,
