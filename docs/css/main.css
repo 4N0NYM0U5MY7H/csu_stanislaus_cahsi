@@ -186,6 +186,22 @@ hr {
     color: #999;
     font-size: 0.8rem;
 }
+
+.icon-outlined {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+  }
+  
+  .icon-outlined .icon-lg {
+    font-size: 2rem;
+  }
 /*================================================================================
           CARD
 ================================================================================*/
@@ -311,6 +327,63 @@ button {
     letter-spacing: 0.1em;
 }
 
+.btn:focus,
+.btn.focus {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(70, 127, 191, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(70, 127, 191, 0.25);
+}
+  
+.btn.disabled,
+.btn:disabled {
+    opacity: .65;
+}
+  
+.btn:not([disabled]):not(.disabled):active,
+.btn:not([disabled]):not(.disabled).active {
+    background-image: none;
+}
+
+.btn-primary {
+    color: color-yiq(#467fbf);
+    background-color: #467fbf;
+    border-color: #467fbf;
+}
+  
+.btn-primary:hover {
+    color: color-yiq(#396ca5);
+    background-color: #36669c;
+    border-color: #36669c;
+}
+  
+.btn-primary:focus,
+.btn-primary.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(70, 127, 191, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(70, 127, 191, 0.5);
+}
+  
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: color-yiq(#467fbf);
+    background-color: #467fbf;
+    border-color: #467fbf;
+}
+  
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    color: color-yiq(#36669c);
+    background-color: #36669c;
+    border-color: #336093;
+}
+  
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(70, 127, 191, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(70, 127, 191, 0.5);
+}
+
 .btn-outlined {
     background: none;
     border: 1px solid #467fbf !important;
@@ -325,6 +398,20 @@ button {
     color: #fff !important;
 }
 
+.btn-outlined-white {
+    background: none;
+    border: 1px solid #fff !important;
+    color: #fff;
+    border-radius: 0 !important;
+    text-decoration: none;
+}
+  
+.btn-outlined-white:hover,
+.btn-outlined-white:focus {
+    background: #fff;
+    color: #467fbf !important;
+}
+
 .btn-outlined-black {
     background: none;
     border: 1px solid #333 !important;
@@ -337,6 +424,20 @@ button {
 .btn-outlined-black:focus {
     background: #333 !important;
     color: #fff !important;
+}
+
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0;
+}
+  
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    border-radius: 0;
 }
 /*================================================================================
           HEADERS & HEADINGS
