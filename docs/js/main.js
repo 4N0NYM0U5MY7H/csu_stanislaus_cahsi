@@ -6,7 +6,7 @@
 
 // Navbar
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 500) {
+    if ($(".navbar").offset().top > 50) {
         $("#custom-nav").addClass("affix");
         // logo on large screens
         $(".navbar-brand img.img-fluid.d-none.d-md-block").attr("width", "140");

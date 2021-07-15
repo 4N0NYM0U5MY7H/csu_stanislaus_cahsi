@@ -43,7 +43,7 @@
 
   <body>
 
-    <nav class="navbar navbar-light bg-light navbar-expand-lg sticky-top justify-content-between">
+    <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top justify-content-between">
       <a class="navbar-brand" href="index.html">
         <img src="img/logo-large.png" alt="cahsi club logo" width="433" height="90" class="img-fluid d-none d-md-block">
         <img src="img/logo-med.png" alt="cahsi club logo" width="140" height="45"
@@ -52,199 +52,319 @@
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-          class="navbar-toggler-icon"></span> </button>
+          class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#team">Meet the Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#team">Members</a></li>
           <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
           <li class="nav-item active"><a class="nav-link" href="javascript:void(0);">Resources<span
-                class="sr-only">(current)</span></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="blog.html">Blog</a></li>
-          <li class="nav-item"> <a class="nav-link" href="index.html#join">Join Today</a></li>
+                class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#join">Join</a></li>
         </ul>
       </div>
     </nav>
 
-    <header class="jumbotron position-relative text-center">
-      <span class="dark-mask"></span>
-      <h1>Our Resources</h1>
-      <br>
-      <p class="lead">We know how difficult it can be to find the right place to start so we have collected different
-        assets to help you in your CS Journey.</p>
-      <br>
-      <p>Want more information or resources about a certain topic? Send us am email!</p>
-      <button class="btn btn-lg btn-primary">
-        <a class="text-white"
-          href="https://forms.office.com/Pages/ResponsePage.aspx?id=B2nlvt8T8kqkv9fvDevAHJBpamMWBPFFh2P9KiDpKetUOVlOS0dDMElOWU9DMk5HRlYxTURRREs2Ti4u"
-          target="_blank" title="suggest a resource">Suggest a Resource</a>
-      </button>
+    <header id="heading-breadcrumbs" class="border-top-0 border-bottom-0">
+      <div class="container">
+        <div class="row d-flex align-items-center flex-wrap">
+          <div class="col-md-7">
+            <h1 class="h2">Resources</h1>
+          </div>
+          <nav class="col-md-5" aria-label="Breadcrumb">
+            <ol class="breadcrumb d-flex justify-content-end">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active">Resources</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <main>
-
-      <section id="highlights">
+      <section>
         <div class="container">
-          <div class="row text-center">
-            <div class="col-lg-6 offset-lg-3 pt-4">
-              <h2>Highlighted opportunities</h2>
-              <br>
-              <p><strong><a rel="external nofollow" target="_blank"
-                    href="https://www.udemy.com/topic/web-development/free">Web Development (free!) courses by
-                    Udemy</a></strong></p>
-              <br>
-              <p><a rel="external nofollow" target="_blank"
-                  href="https://us02web.zoom.us/webinar/register/WN_soacI4w0Rni87Gv_X7jkhw">Intro to Advanced Machine
-                  Learning</a></p>
-              <br>
-              <p><a rel="external nofollow" target="_blank"
-                  href="https://opportunity.linkedin.com/skills-for-in-demand-jobs">Learn relevant skills for jobs
-                  in-demand</a></p>
-              <br>
-              <p><a rel="external nofollow" target="_blank"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfQbVc07QUQxItDDWm-7BeKoWzDl7_xlus2VVXcYwj4yGuAUg/viewform">Intro
-                  to Java, variables, arithmetic, operations, and more!</a></p>
-              <hr>
-              <h2>Highlighted Opportunity for K-12!</h2>
-              <br>
-              <p><strong><a rel="external nofollow" target="_blank"
-                    href="https://couponfollow.com/research/learn-to-code-from-home">Learn to Code from Home by
-                    Couponfollow</a></strong></p>
-              <br>
+          <div class="row bar">
+            <div class="col-md-12">
+              <!-- resources -->
+
+              <p class="lead">We know how difficult it can be to find the right place to start, so we have collected
+                different assets to help you in your Computer Science Journey.</p>
+
+              <!-- collapsible tabs -->
+              <div id="resources" role="tablist">
+
+                <!-- highlighted opportunites -->
+                <div class="card card-primary">
+                  <div id="headingOne" role="tab" class="card-header">
+                    <h2 class="h5 mb-0 mt-0"><a data-toggle="collapse" href="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">Highlighted Opportunities</a></h2>
+                  </div>
+                  <div id="collapseOne" role="tabpanel" aria-labelledby="headingOne" data-parent="#resources"
+                    class="collapse show">
+                    <div class="card-body">
+                      <ul>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.udemy.com/topic/web-development/free">Web Development (free!) courses by
+                            Udemy</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://us02web.zoom.us/webinar/register/WN_soacI4w0Rni87Gv_X7jkhw">Intro to Advanced
+                            Machine Learning</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://opportunity.linkedin.com/skills-for-in-demand-jobs">Learn relevant skills for
+                            jobs in-demand</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfQbVc07QUQxItDDWm-7BeKoWzDl7_xlus2VVXcYwj4yGuAUg/viewform">Intro
+                            to Java, variables, arithmetic, operations, and more!</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- hilighted opportunities for k-12 -->
+                <div class="card card-primary">
+                  <div id="headingTwo" role="tab" class="card-header">
+                    <h2 class="h5 mb-0 mt-0"><a data-toggle="collapse" href="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo" class="collapsed">Highlited Opportunites for K-12</a></h2>
+                  </div>
+                  <div id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo" data-parent="#resources"
+                    class="collapse">
+                    <div class="card-body">
+                      <ul>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://couponfollow.com/research/learn-to-code-from-home">Learn to Code from Home by
+                            Couponfollow</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- coding practice -->
+                <div class="card card-primary">
+                  <div id="headingThree" role="tab" class="card-header">
+                    <h2 class="h5 mb-0 mt-0"><a data-toggle="collapse" href="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree" class="collapsed">Coding Practice</a></h2>
+                  </div>
+                  <div id="collapseThree" role="tabpanel" aria-labelledby="headingThree" data-parent="#resources"
+                    class="collapse">
+                    <div class="card-body">
+                      <ul>
+                        <li><a rel="external nofollow" target="_blank" href="https://codingbat.com/java">Coding Bat
+                            (with Python and Java)</a></li>
+                        <li><a rel="external nofollow" target="_blank" href="https://leetcode.com/">Practice your
+                            technical skills here with Leetcode!</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.tutorialspoint.com/index.htm">TutorialsPoints: contains various
+                            information about wide range of topic in Computer Science</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://github.com/alxerg/Books-1/blob/master/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf">Cracking
+                            the coding Interview PDF</a></li>
+                        <li><a rel="external nofollow" target="_blank" href="https://stackoverflow.com/">StackOverFlow
+                            for quick help in forums</a></li>
+                        <li><a rel="external nofollow" target="_blank" href="https://github.com/">Explore Github to see
+                            various code created by people and contribute!</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- algorithms -->
+                <div class="card card-primary">
+                  <div id="headingFour" role="tab" class="card-header">
+                    <h2 class="h5 mb-0 mt-0"><a data-toggle="collapse" href="#collapseFour" aria-expanded="false"
+                        aria-controls="collapseFive" class="collapsed">Algorithms</a></h2>
+                  </div>
+                  <div id="collapseFour" role="tabpanel" aria-labelledby="headingFour" data-parent="#resources"
+                    class="collapse">
+                    <div class="card-body">
+                      <ul>
+                        <li><a rel="external nofollow" target="_blank" href="https://visualgo.net/en">Visualise
+                            different algorithms with VisuAlgo!</a></li>
+                        <li><a rel="external nofollow" target="_blank" href="http://bigocheatsheet.com/">Big O Cheat
+                            Sheet</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://medium.freecodecamp.org/time-is-complex-but-priceless-f0abd015063c">Algorithms
+                            in plain English</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- coding for kids -->
+                <div class="card card-primary">
+                  <div id="headingFive" role="tab" class="card-header">
+                    <h2 class="h5 mb-0 mt-0"><a data-toggle="collapse" href="#collapseFive" aria-expanded="false"
+                        aria-controls="collapseFive" class="collapsed">Coding for kids</a></h2>
+                  </div>
+                  <div id="collapseFive" role="tabpanel" aria-labelledby="headingFive" data-parent="#resources"
+                    class="collapse">
+                    <div class="card-body">
+                      <ul>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://csfirst.withgoogle.com/c/cs-first/en/curriculum.html">Google Code for kids</a>
+                        </li>
+                        <li><a rel="external nofollow" target="_blank" href="https://scratch.mit.edu/">Scratch (Beginner
+                            coding language)</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- connections & networking -->
+                <div class="card card-primary">
+                  <div id="headingSix" role="tab" class="card-header">
+                    <h2 class="h5 mb-0 mt-0"><a data-toggle="collapse" href="#collapseSix" aria-expanded="false"
+                        aria-controls="collapseSix" class="collapsed">Connections and Networking</a></h2>
+                  </div>
+                  <div id="collapseSix" role="tabpanel" aria-labelledby="headingSix" data-parent="#resources"
+                    class="collapse">
+                    <div class="card-body">
+                      <ul>
+                        <li><a rel="external nofollow" target="_blank" href="https://witi.com/">Women in Technology
+                            International</a></li>
+                        <li><a rel="external nofollow" target="_blank" href="http://www.greatmindsinstem.org/">Great
+                            Minds
+                            in STEM</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- internships -->
+                <div class="card card-primary">
+                  <div id="headingSeven" role="tab" class="card-header">
+                    <h2 class="h5 mb-0 mt-0"><a data-toggle="collapse" href="#collapseSeven" aria-expanded="false"
+                        aria-controls="collapseSeven" class="collapsed">Internships</a></h2>
+                  </div>
+                  <div id="collapseSeven" role="tabpanel" aria-labelledby="headingSeven" data-parent="#resources"
+                    class="collapse">
+                    <div class="card-body">
+                      <ul>
+                        <li><a rel="external nofollow" target="_blank" href="https://careers.google.com/jobs/">Google
+                            Careers</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.linkedin.com/jobs/information-technology-internship-jobs?position=1&pageNum=0">LinkedIn
+                            Careers</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.glassdoor.com/Job/software-engineer-intern-jobs-SRCH_KO0,24.htm">Glassdoor</a>
+                        </li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.csustan.edu/career/hirestanstate">HIREStanState powered by Handshake</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- free learning services -->
+                <div class="card card-primary">
+                  <div id="headingEight" role="tab" class="card-header">
+                    <h2 class="h5 mb-0 mt-0"><a data-toggle="collapse" href="#collapseEight" aria-expanded="false"
+                        aria-controls="collapseEight" class="collapsed">Free Learning Services</a></h2>
+                  </div>
+                  <div id="collapseEight" role="tabpanel" aria-labelledby="headingEight" data-parent="#resources"
+                    class="collapse">
+                    <div class="card-body">
+                      <ul>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.freecodecamp.org/news/">FreeCodeCamp</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.linkedin.com/learning/">LinkedIn
+                            Learning (for students)</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.codecademy.com/">CodingAcademy</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.codingame.com/start">CodingGame</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.youtube.com/channel/UCYvQTh9aUgPZmVH0wNHFa1A/featured">Whiteboarding
+                            Videos</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- download compilers -->
+                <div class="card card-primary">
+                  <div id="headingNine" role="tab" class="card-header">
+                    <h2 class="h5 mb-0 mt-0"><a data-toggle="collapse" href="#collapseNine" aria-expanded="false"
+                        aria-controls="collapseNine" class="collapsed">Download Compilers</a></h2>
+                  </div>
+                  <div id="collapseNine" role="tabpanel" aria-labelledby="headingNine" data-parent="#resources"
+                    class="collapse">
+                    <div class="card-body">
+                      <ul>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers">Eclipse
+                            for Java</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://www.eclipse.org/downloads/packages/release/helios/sr2/eclipse-php-developers">Eclipse
+                            for PHP</a></li>
+                        <li><a rel="external nofollow" target="_blank" href="https://colab.research.google.com/">Googles
+                            Web based compiler for Python, Html, and other languages</a></li>
+                        <li><a rel="external nofollow" target="_blank" href="https://code.visualstudio.com/download">VS
+                            Code for various langauges</a></li>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://developer.android.com/studio/?gclid=EAIaIQobChMI3Z7XiZvJ6wIV8j2tBh3uFQToEAAYASAAEgKNTvD_BwE&gclsrc=aw.ds">Android
+                            Studio for App development</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- workshop powerpoints -->
+                <div class="card card-primary">
+                  <div id="headingTen" role="tab" class="card-header">
+                    <h2 class="h5 mb-0 mt-0"><a data-toggle="collapse" href="#collapseTen" aria-expanded="false"
+                        aria-controls="collapseTen" class="collapsed">Workshop Powerpoints</a></h2>
+                  </div>
+                  <div id="collapseTen" role="tabpanel" aria-labelledby="headingTen" data-parent="#resources"
+                    class="collapse">
+                    <div class="card-body">
+                      <ul>
+                        <li><a rel="external nofollow" target="_blank"
+                            href="https://docs.google.com/presentation/d/1_T8p4vDMyAn_u7BHRqQJcfzCBRpenoIM8L7R-3GTjHc/edit?usp=sharing">WWCode
+                            Coding Prep &amp; Big O</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <br>
-          <hr>
-          <br>
         </div>
       </section>
 
-      <section id="">
+      <!-- contact form -->
+      <section class="bar">
         <div class="container">
-          <div class="row">
-
-            <!-- LEFT COLUMN _________________________________________________________-->
-            <div class="col-sm-6 col-lg-4">
-              <div class="card">
-                <img src="img/coding-practice.jpg" alt="" class="card-img-top" aria-hidden="true">
-                <div class="card-body">
-                  <h4 class="card-title">Want to practice Coding skills?</h4>
-                  <p><a rel="external nofollow" target="_blank" href="https://codingbat.com/java">Coding Bat (with
-                      Python and Java)</a></p>
-                  <p><a rel="external nofollow" target="_blank" href="https://leetcode.com/">Practice your technical
-                      skills here with Leetcode!</a></p>
-                  <p><a rel="external nofollow" target="_blank"
-                      href="https://www.tutorialspoint.com/index.htm">TutorialsPoints: contains various information
-                      about wide range of topic in Computer Science</a></p>
-                  <p><a rel="external nofollow" target="_blank"
-                      href="https://github.com/alxerg/Books-1/blob/master/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf">Cracking
-                      the coding Interview PDF</a></p>
-                  <p><a rel="external nofollow" target="_blank" href="https://stackoverflow.com/">StackOverFlow for
-                      quick help in forums</a></p>
-                  <p><a rel="external nofollow" target="_blank" href="https://github.com/">Explore Github to see various
-                      code created by people and contribute!</a></p>
-                  <hr>
-                  <h4 class="card-title">Algorithms</h4>
-                  <p><a rel="external nofollow" target="_blank" href="https://visualgo.net/en">Visualise different
-                      algorithms with VisuAlgo!</a>&nbsp;</p>
-                  <p><a rel="external nofollow" target="_blank" href="http://bigocheatsheet.com/">Big O Cheat
-                      Sheet</a>&nbsp;</p>
-                  <p><a rel="external nofollow" target="_blank"
-                      href="https://medium.freecodecamp.org/time-is-complex-but-priceless-f0abd015063c">Algorithms in
-                      plain English</a>&nbsp;</p>
-                  <h4 class="card-title">Coding for kids</h4>
-                  <p><a rel="external nofollow" target="_blank"
-                      href="https://csfirst.withgoogle.com/c/cs-first/en/curriculum.html">Google Code for kids</a>
-                  </p>
-                  <p><a rel="external nofollow" target="_blank" href="https://scratch.mit.edu/">Scratch (Beginner coding
-                      language)</a></p>
-                </div>
+          <div class="row bg-pentagon">
+            <div class="col-md-12">
+              <div class="heading text-center">
+                <h2>Suggest a Resource</h2>
               </div>
+              <p class="text-muted text-center">Want more information or resources about a certain topic? Send us
+                am email!
+              </p>
             </div>
-
-            <!-- MIDDLE COLUMN _________________________________________________________-->
-            <div class="col-sm-6 col-lg-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Connections and Networking</h5>
-                  <p><a rel="external nofollow" target="_blank" href="https://witi.com/">Women in Technology
-                      International</a></p>
-                  <p><a rel="external nofollow" target="_blank" href="http://www.greatmindsinstem.org/">Great Minds in
-                      STEM</a></p>
-                </div>
-              </div>
-              <br>
-              <br>
-              <div class="card">
-                <div class="card-header">Internships</div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><a rel="external nofollow" target="_blank"
-                      href="https://careers.google.com/jobs/">Google Careers</a></li>
-                  <li class="list-group-item"><a rel="external nofollow" target="_blank"
-                      href="https://www.linkedin.com/jobs/information-technology-internship-jobs?position=1&pageNum=0">LinkedIn
-                      Careers</a></li>
-                  <li class="list-group-item"><a rel="external nofollow" target="_blank"
-                      href="https://www.glassdoor.com/Job/software-engineer-intern-jobs-SRCH_KO0,24.htm">Glassdoor</a>
-                  </li>
-                  <li class="list-group-item"><a rel="external nofollow" target="_blank"
-                      href="https://www.csustan.edu/career/hirestanstate">HIREStanState powered by Handshake</a></li>
-                </ul>
-              </div>
-              <p>&nbsp;</p>
-              <div class="card">
-                <div class="card-header">Free Learning Services</div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><a rel="external nofollow" target="_blank"
-                      href="https://www.freecodecamp.org/news/">FreeCodeCamp</a></li>
-                  <li class="list-group-item"><a rel="external nofollow" target="_blank"
-                      href="https://www.linkedin.com/learning/">LinkedIn Learning (for students)</a></li>
-                  <li class="list-group-item"><a rel="external nofollow" target="_blank"
-                      href="https://www.codecademy.com/">CodingAcademy</a></li>
-                  <li class="list-group-item"><a rel="external nofollow" target="_blank"
-                      href="https://www.codingame.com/start">CodingGame</a></li>
-                  <li class="list-group-item"><a rel="external nofollow" target="_blank"
-                      href="https://www.youtube.com/channel/UCYvQTh9aUgPZmVH0wNHFa1A/featured">Whiteboarding Videos</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- RIGHT COLUMN _________________________________________________________-->
-            <div class="col-sm-6 col-lg-4">
-              <div class="card">
-                <img src="img/compile.jpg" alt="" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Download Compilers</h5>
-                  <div class="card-text">
-                    <p><a rel="external nofollow" target="_blank"
-                        href="https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers">Eclipse
-                        for Java</a></p>
-                    <p><a rel="external nofollow" target="_blank"
-                        href="https://www.eclipse.org/downloads/packages/release/helios/sr2/eclipse-php-developers">Eclipse
-                        for PHP</a></p>
-                    <p><a rel="external nofollow" target="_blank" href="https://colab.research.google.com/">Googles Web
-                        based compiler for Python, Html, and other languages</a></p>
-                    <p><a rel="external nofollow" target="_blank" href="https://code.visualstudio.com/download">VS Code
-                        for various langauges</a></p>
-                    <p><a rel="external nofollow" target="_blank"
-                        href="https://developer.android.com/studio/?gclid=EAIaIQobChMI3Z7XiZvJ6wIV8j2tBh3uFQToEAAYASAAEgKNTvD_BwE&gclsrc=aw.ds">Android
-                        Studio for App development</a></p>
+            <div class="col-md-8 mx-auto">
+              <form action="mailto:cahsi-president@csustan.edu?subject=Suggest%20a%20Resource" method="POST"
+                enctype="text/plain">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="body" class="form-control"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 text-center">
+                    <input type="submit" value="&#xf003 Send message" class="btn btn-outlined">
                   </div>
                 </div>
-                <p>&nbsp;</p>
-              </div>
-              <div class="card">
-                <div class="card-header"><strong>Workshop Powerpoints</strong></div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><a rel="external nofollow" target="_blank"
-                      href="https://docs.google.com/presentation/d/1_T8p4vDMyAn_u7BHRqQJcfzCBRpenoIM8L7R-3GTjHc/edit?usp=sharing">WWCode
-                      Coding Prep &amp; Big O</a></li>
-                </ul>
-              </div>
+              </form>
             </div>
           </div>
-          <br>
-          <hr>
         </div>
       </section>
 

@@ -15,6 +15,22 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Create page templates to easily add new sections to the site. 
 
 ---
+## 21.07.15 — 15.07.2021
+---
+## Changed
+- update homepage style
+  - team member section
+  - instagram section
+
+
+---
+## 21.07.14 — 14.07.2021
+---
+### Changed
+- `resources` page complete style overhaul.
+- update home page contact form style.
+
+---
 ## 21.07.13 — 13.07.2021
 ---
 ### Changed
