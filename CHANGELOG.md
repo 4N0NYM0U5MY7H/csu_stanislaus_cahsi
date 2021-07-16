@@ -8,8 +8,6 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Events and Resources pages will be split into separate pages.
   - `upcoming-events.html` & `past-events.html` pages to be published via AJAX.
   - `resources.html ` & `internships.html` & `scholarships.html` & `research.html` pages...More planning required.
-- Change site wide headers to be consistent.
-  - breadcrumb heaings on subpages, possible carousel on homepage, and jumbotron on all other parent pages? To be determined...
 - Update Resources page with more content
 - Update to current CAHSI club team members 
 - Create page templates to easily add new sections to the site. 
@@ -21,7 +19,11 @@ Please note that the version numbering is not for the benefit of the end user, b
 - update homepage style
   - team member section
   - instagram section
-
+  - goals section
+- overhaul `blog` page
+- minor navbar changes
+- minor style changes on `events` page
+- removed placeholder images
 
 ---
 ## 21.07.14 — 14.07.2021
