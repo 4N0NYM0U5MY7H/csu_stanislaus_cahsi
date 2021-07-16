@@ -421,6 +421,7 @@ button {
 }
 
 .btn-primary {
+    border-radius: 0;
     color: color-yiq(#467fbf);
     background-color: #467fbf;
     border-color: #467fbf;
