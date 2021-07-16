@@ -26,7 +26,7 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Fall 2020 `students-in-tech` blog post
 
 ---
-## 21.07.15 — 15.07.2021
+## 21.07.15 — Live Site Update 15.07.2021
 ---
 ## Changed
 - update homepage style
