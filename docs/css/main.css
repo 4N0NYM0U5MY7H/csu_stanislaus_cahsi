@@ -57,7 +57,9 @@ footer .social a:hover {
     letter-spacing: 0.1em;
 }
 
-.text-small {
+.text-small,
+#blog-listing .date a,
+#blog-listing p.intro {
     font-size: 0.9rem;
 }
 
@@ -197,11 +199,57 @@ hr {
     border-radius: 50%;
     border: 2px solid #fff;
     margin-bottom: 20px;
-  }
+}
   
-  .icon-outlined .icon-lg {
+.icon-outlined .icon-lg {
     font-size: 2rem;
-  }
+}
+
+#blog-listing .post {
+    margin-bottom: 60px;
+}
+
+#blog-listing .image {
+    margin-bottom: 15px;
+}
+
+#blog-listing h2 a {
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+#blog-listing .author-category {
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+#blog-listing .author-category a {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#blog-listing .date {
+    margin-bottom: 0;
+}
+
+#blog-listing .date a {
+    color: #999;
+    margin-left: 25px;
+}
+
+#blog-listing .date i {
+    margin-right: 5px;
+}
+
+#blog-listing p.intro {
+    margin-top: 10px;
+    color: #777;
+}
 /*================================================================================
           CARD
 ================================================================================*/
