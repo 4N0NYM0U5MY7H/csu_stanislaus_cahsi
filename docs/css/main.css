@@ -10,6 +10,12 @@
 @import url("https://fonts.googleapi.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
+body,
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 a {
     -webkit-transition: all 0.3s !important;
     transition: all 0.3s !important;

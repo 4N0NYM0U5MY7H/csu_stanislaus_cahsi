@@ -13,6 +13,19 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Create page templates to easily add new sections to the site. 
 
 ---
+## 21.07.16 — 16.07.2021
+---
+## Changed
+- fixed horizontal overflow issue
+- major image organization overhaul
+  - renamed images for easy reuse
+  - removed duplicate and unused images
+
+## Added
+- normailized css support
+- Fall 2020 `students-in-tech` blog post
+
+---
 ## 21.07.15 — 15.07.2021
 ---
 ## Changed
