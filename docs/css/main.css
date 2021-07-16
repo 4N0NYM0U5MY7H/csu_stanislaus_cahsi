@@ -250,6 +250,39 @@ hr {
     margin-top: 10px;
     color: #777;
 }
+
+.box-simple {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.box-simple:hover .icon-outlined {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+  
+.box-simple .icon-outlined {
+    color: #467fbf;
+    border: 1px solid #467fbf;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box-simple h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+  
+.box-simple p {
+    color: #999;
+    margin: 20px 0;
+    font-size: 0.9rem;
+}
+
+.same-height div[class*="col-"] {
+    height: 100%;
+    margin-bottom: 30px;
+}
 /*================================================================================
           CARD
 ================================================================================*/
