@@ -10,6 +10,12 @@
 @import url("https://fonts.googleapi.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
+body,
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 a {
     -webkit-transition: all 0.3s !important;
     transition: all 0.3s !important;
@@ -523,7 +529,7 @@ button {
     color: #fff;
     margin: 0;
     border-radius: 0;
-    background-image: url("../img/students-in-tech.jpg");
+    background-image: url("../img/bg-jumbotron.jpg");
     background-size: cover;
 }
 
