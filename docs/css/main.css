@@ -1,8 +1,6 @@
-/*!
-  * main.css (https://hopper.csustan.edu/~cahsi/)
+/*! csustan-cahsi.main.css (https://hopper.csustan.edu/~cahsi/)
   * Copyright 2019 - 2021 The Stan-State CAHSI Club (https://github.com/parasiticfrisk/csustanCAHSI/graphs/contributors)
-  * Licensed under MIT (https://github.com/parasiticfrisk/csustanCAHSI/blob/master/LICENSE)
-  */
+  * Licensed under MIT (https://github.com/parasiticfrisk/csustanCAHSI/blob/master/LICENSE)*/
 
 /*================================================================================
           GENERAL STYLE & FONT / TEXT 
@@ -530,8 +528,6 @@ button {
     color: #fff;
     margin: 0;
     border-radius: 0;
-    background-image: url("../img/bg-jumbotron.jpg");
-    background-size: cover;
 }
 
 .jumbotron h1,
@@ -550,7 +546,7 @@ button {
     margin: 0;
     color: #fff;
     border-radius: 0;
-    background: url("../img/bg-instagram.jpg") center top no-repeat;
+    background: url("../img/bg-instagram.webp") center top no-repeat;
     background-size: cover;
 }
 

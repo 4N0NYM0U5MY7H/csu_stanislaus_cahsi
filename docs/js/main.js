@@ -11,13 +11,13 @@ $(window).scroll(function() {
         // logo on large screens
         $(".navbar-brand img.img-fluid.d-none.d-md-block").attr("width", "140");
         $(".navbar-brand img.img-fluid.d-none.d-md-block").attr("height", "45");
-        $(".navbar-brand img.img-fluid.d-none.d-md-block").attr("src", "img/logo-med.png");
+        $(".navbar-brand img.img-fluid.d-none.d-md-block").attr("src", "img/logo-med.webp");
     }
     else {
         $("#custom-nav").removeClass("affix");
         // logo on large screens
         $(".navbar-brand img.img-fluid.d-none.d-md-block").attr("width", "433");
         $(".navbar-brand img.img-fluid.d-none.d-md-block").attr("height", "90");
-        $(".navbar-brand img.img-fluid.d-none.d-md-block").attr("src", "img/logo-large.png");
+        $(".navbar-brand img.img-fluid.d-none.d-md-block").attr("src", "img/logo-large.webp");
     }
 });
