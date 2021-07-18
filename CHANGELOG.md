@@ -13,6 +13,13 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Create page templates to easily add new sections to the site. 
 
 ---
+## 21.07.18 — Live Site Update 18.07.2021
+---
+### Changed
+- web performance update
+  - final performance changes for July updates
+
+---
 ## 21.07.17 — 17.07.2021
 ---
 ### Changed
