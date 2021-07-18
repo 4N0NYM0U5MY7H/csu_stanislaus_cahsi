@@ -7,14 +7,14 @@ Performance analytics for the CAHSI club website at CSU Stanislaus.
 
 | Page               | Score | First Contentful Paint | Speed Index | Largest Contentful Paint | Time to Interact | Total Blocking Time | Cumulative Layout Shift |
 | :----------------- | :---: | :--------------------: | :---------: | :----------------------: | :--------------: | :-----------------: | :---------------------: |
-| Home: Mobile       |  84   |          2.6s          |    2.6s     |           3.8s           |       3.7s       |        40ms         |          0.035          |
-| Home: Desktop      |  98   |          0.6s          |    0.6s     |           0.8s           |       0.6s       |         0ms         |          0.086          |
-| Events: Mobile     |  89   |          2.0s          |    2.0s     |           3.4s           |       3.5s       |        10ms         |          0.008          |
-| Events: Desktop    |  99   |          0.6s          |    0.6s     |           0.9s           |       0.6s       |         0ms         |          0.049          |
-| Resources: Mobile  |  88   |          2.4s          |    2.4s     |           3.5s           |       2.4s       |         0ms         |          0.007          |
-| Resources: Desktop |  99   |          0.6s          |    0.6s     |           0.8s           |       0.6s       |         0ms         |          0.056          |
-| Blog: Mobile       |  84   |          2.6s          |    2.6s     |           3.8s           |       3.4s       |        10ms         |          0.018          |
-| Blog: Desktop      |  99   |          0.6s          |    0.6s     |           0.8s           |       0.6s       |         0ms         |          0.03           |
+| Home: Mobile       |  85   |          2.6s          |    2.6s     |           3.8s           |       2.6s       |         0ms         |          0.004          |
+| Home: Desktop      |  99   |          0.6s          |    0.6s     |           0.8s           |       0.6s       |         0ms         |          0.08           |
+| Events: Mobile     |  95   |          2.0s          |    2.0s     |           2.7s           |       2.0s       |         0ms         |          0.005          |
+| Events: Desktop    |  99   |          0.6s          |    0.6s     |           0.8s           |       0.6s       |         0ms         |          0.049          |
+| Resources: Mobile  |  93   |          1.9s          |    1.9s     |           3.1s           |       2.4s       |         0ms         |          0.007          |
+| Resources: Desktop |  100  |          0.6s          |    0.6s     |           0.7s           |       0.6s       |         0ms         |          0.018          |
+| Blog: Mobile       |  87   |          2.6s          |    2.6s     |           3.4s           |       3.1s       |        10ms         |          0.015          |
+| Blog: Desktop      |  100  |          0.6s          |    0.6s     |           0.7s           |       0.6s       |         0ms         |          0.03           |
 
 ## [April Update] 05-04-2021
 ### Google PageSpeed Insights
