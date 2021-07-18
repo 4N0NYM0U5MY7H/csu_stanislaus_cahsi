@@ -2,7 +2,7 @@
 
 Performance analytics for the CAHSI club website at CSU Stanislaus.
 
-## [0.0.2] 05-04-2021 (April Update 01)
+## [April Update] 05-04-2021 (April Update 01)
 ### Google PageSpeed Insights
 
 | Page               | Score | First Contentful Paint | Speed Index | Largest Contentful Paint | Time to Interact | Total Blocking Time | Cumulative Layout Shift |
@@ -14,7 +14,7 @@ Performance analytics for the CAHSI club website at CSU Stanislaus.
 | Blogs: Mobile      |  92   |          1.5s          |    1.5s     |           3.4s           |       1.5s       |        10ms         |            0            |
 | Blogs: Desktop     |  100  |          0.3s          |    0.3s     |           0.7s           |       0.3s       |         0ms         |            0            |
 
-## [0.0.2] 31-03-2021 (March Update)
+## [March Update] 31-03-2021 (March Update)
 ### Google PageSpeed Insights
 
 | Page               | Score | First Contentful Paint | Speed Index | Largest Contentful Paint | Time to Interact | Total Blocking Time | Cumulative Layout Shift |
@@ -26,7 +26,7 @@ Performance analytics for the CAHSI club website at CSU Stanislaus.
 | Blogs: Mobile      |  91   |          1.5s          |    1.8s     |           3.4s           |       2.6s       |        10ms         |            0            |
 | Blogs: Desktop     |  99   |          0.3s          |    0.3s     |           1.0s           |       0.3s       |         0ms         |          0.013          |
 
-## [0.0.1] 27-03-2021 (Initial Site)
+## [Initial Site] 27-03-2021 (Initial Site)
 ### Google PageSpeed Insights
 
 | Page               | Score | First Contentful Paint | Speed Index | Largest Contentful Paint | Time to Interact | Total Blocking Time | Cumulative Layout Shift |

@@ -31,14 +31,17 @@
     <meta name="msapplication-TileImage" content="img/favicon-144.png">
     <meta name="msapplication-config" content="img/browserconfig.xml">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/normailize.min.css">
-    <link rel="stylesheet" href="css/bootstrap-4.4.1.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" crossorigin="anonymous" href="https://pagecdn.io/lib/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" crossorigin="anonymous"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
     <!-- Tweaks for older IEs-->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js" async></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js" async></script>
     <![endif]-->
   </head>
 
@@ -46,10 +49,11 @@
 
     <nav class="navbar navbar-light bg-white text-uppercase navbar-expand-lg sticky-top justify-content-between">
       <a class="navbar-brand" href="javascript:void(0);">
-        <img src="img/logo-large.png" alt="cahsi club logo" width="433" height="90" class="img-fluid d-none d-md-block">
-        <img src="img/logo-med.png" alt="cahsi club logo" width="140" height="45"
+        <img src="img/logo-large.webp" alt="cahsi club logo" width="433" height="90"
+          class="img-fluid d-none d-md-block">
+        <img src="img/logo-med.webp" alt="cahsi club logo" width="140" height="45"
           class="img-fluid d-none d-sm-block d-md-none">
-        <img src="img/logo.png" alt="cahsi club logo" width="53" height="50" class="img-fluid d-block d-sm-none">
+        <img src="img/logo.webp" alt="cahsi club logo" width="53" height="50" class="img-fluid d-block d-sm-none">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -67,7 +71,8 @@
       </div>
     </nav>
 
-    <header class="jumbotron position-relative text-center">
+    <header style="background-image: url('img/bg-jumbotron.webp'); background-size: cover;"
+      class="jumbotron position-relative text-center">
       <span class="dark-mask"></span>
       <div class="container">
         <div class="row">
@@ -98,7 +103,7 @@
             <div class="row text-center">
               <div class="col-md-4">
                 <div data-animate="fadeInUp" class="team-member">
-                  <div class="image"><img src="img/president-stephanie.jpg" alt="" width="140" height="140"
+                  <div class="image"><img src="img/president-stephanie.webp" alt="" width="140" height="140"
                       class="img-fluid rounded-circle"></div>
                   <h3>Stephanie Gamboa</h3>
                   <p class="role">President <br> CAHSI Student Advocate</p>
@@ -107,7 +112,7 @@
               <!-- team member -->
               <div data-animate="fadeInUp" class="col-md-4">
                 <div class="team-member">
-                  <div class="image"><img src="img/vp-vanessa.jpg" alt="" width="140" height="140"
+                  <div class="image"><img src="img/vp-vanessa.webp" alt="" width="140" height="140"
                       class="img-fluid rounded-circle"></div>
                   <h3>Vanessa Hernandez</h3>
                   <p class="role">Vice President</p>
@@ -116,7 +121,7 @@
               <!-- team-member -->
               <div data-animate="fadeInUp" class="col-md-4">
                 <div class="team-member">
-                  <div class="image"><img src="img/treasurer-edd.jpg" alt="" width="140" height="140"
+                  <div class="image"><img src="img/treasurer-edd.webp" alt="" width="140" height="140"
                       class="img-fluid rounded-circle"></div>
                   <h3>Edd J. Castillo</h3>
                   <p class="role">Treasurer</p>
@@ -125,7 +130,7 @@
               <!-- team-member -->
               <div data-animate="fadeInUp" class="col-md-4">
                 <div class="team-member">
-                  <div class="image"><img src="img/secretary-bryana.jpg" alt="" width="140" height="140"
+                  <div class="image"><img src="img/secretary-bryana.webp" alt="" width="140" height="140"
                       class="img-fluid rounded-circle"></div>
                   <h3>Bryana Gudino</h3>
                   <p class="role">Secretary</p>
@@ -134,7 +139,7 @@
               <!-- team-member -->
               <div data-animate="fadeInUp" class="col-md-4">
                 <div class="team-member">
-                  <div class="image"><img src="img/events-marina.jpg" alt="" width="140" height="140"
+                  <div class="image"><img src="img/events-marina.webp" alt="" width="140" height="140"
                       class="img-fluid rounded-circle"></div>
                   <h3>Marina Cowern</h3>
                   <p class="role">Event Coordinator</p>
@@ -170,7 +175,7 @@
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="box-simple">
-                  <div class="icon-outlined"><i class="fa fa-grav"></i></div>
+                  <div class="icon-outlined"><i class="fab fa-grav"></i></div>
                   <h3 class="h4">Inspiration</h3>
                   <p>To encourage and inspire young minds in the exploration of careers, opportunites, and possibilities
                     of S.T.E.M!</p>
@@ -208,7 +213,7 @@
             <!-- Event One -->
             <div class="col-lg-4 col-sm-6">
               <div class="card">
-                <img class="card-img-top" src="img/events-machine-learning.jpg" alt="">
+                <img class="card-img-top" src="img/events-machine-learning.webp" alt="">
                 <div class="card-body">
                   <div class="d-flex">
                     <h4 class="card-title">Warriors Who Tech</h4>
@@ -228,7 +233,7 @@
             <!-- Event Two -->
             <div class="col-lg-4 col-sm-6">
               <div class="card">
-                <img class="card-img-top" src="img/events-javascript.jpg" alt="">
+                <img class="card-img-top" src="img/events-javascript.webp" alt="">
                 <div class="card-body">
                   <div class="d-flex">
                     <h4 class="card-title">Recursion in JavaScript</h4>
@@ -249,7 +254,7 @@
             <!-- Event Three -->
             <div class="col-lg-4 col-sm-6">
               <div class="card">
-                <img class="card-img-top" src="img/events-python.jpg" alt="">
+                <img class="card-img-top" src="img/events-python.webp" alt="">
                 <div class="card-body">
                   <div class="d-flex">
                     <h4 class="card-title">Intro to APIs</h4>
@@ -270,7 +275,7 @@
             <!-- Event Four -->
             <div class="col-lg-4 col-sm-6">
               <div class="card">
-                <img class="card-img-top" src="img/events-data.jpg" alt="">
+                <img class="card-img-top" src="img/events-data.webp" alt="">
                 <div class="card-body">
                   <div class="d-flex">
                     <h4 class="card-title">DatOS - A Data Cafecito</h4>
@@ -289,7 +294,7 @@
             <!-- Event Five -->
             <div class="col-lg-4 col-sm-6">
               <div class="card">
-                <img class="card-img-top" src="img/events-covid.jpg" alt="">
+                <img class="card-img-top" src="img/events-covid.webp" alt="">
                 <div class="card-body">
                   <div class="d-flex">
                     <h4 class="card-title">The Role of AI in the Battle Against Covid-19</h4>
@@ -310,7 +315,7 @@
             <!-- Veiw More Events! -->
             <div class="col-lg-4 col-sm-6">
               <div class="card">
-                <img class="card-img-top" src="img/more-events2.jpg" alt="">
+                <img class="card-img-top" src="img/more-events.jpg" alt="">
                 <div class="card-body">
                   <div class="d-flex">
                     <h4 class="card-title">More Events</h4>
@@ -333,7 +338,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-8 mx-auto text-center">
-              <div class="icon icon-outlined icon-lg"><i class="fa fa-instagram"></i></div>
+              <div class="icon icon-outlined icon-lg"><i class="fab fa-instagram"></i></div>
               <h3 class="text-uppercase">Follow us on Instagram</h3>
               <br>
               <iframe class="snapwidget-widget" src="https://snapwidget.com/embed/865936" allowtransparency="true"
@@ -344,7 +349,7 @@
             <div class="col-sm-4 col-auto mx-auto">
               <br>
               <p class="text-center"><a target="_blank" href="https://www.instagram.com/cahsi_stan/"
-                  class="btn btn-outlined-white btn-lg"><i class="fa fa-instagram"> cahsi_stan</i></a></p>
+                  class="btn btn-outlined-white btn-lg"><i class="fab fa-instagram"> cahsi_stan</i></a></p>
             </div>
           </div>
         </div>
@@ -394,7 +399,7 @@
                       </div>
                     </div>
                     <div class="col-sm-12 text-center">
-                      <input type="submit" value="&#xf003 Send message" class="btn btn-outlined">
+                      <input type="submit" value="&#xf0e0; Send message" class="btn btn-outlined">
                     </div>
                   </div>
                 </form>
@@ -414,14 +419,14 @@
           <div class="col-12">
             <h3 class="h4 text-uppercase">Social Media</h3>
             <div class="d-inline-flex social">
-              <a target="_blank" href="https://www.instagram.com/cahsi_stan/"><i class="fa fa-instagram fa-3x"></i></a>
+              <a target="_blank" href="https://www.instagram.com/cahsi_stan/"><i class="fab fa-instagram fa-3x"></i></a>
               <a target="_blank" href="https://www.facebook.com/groups/CAHSI.SupportGroup/"><i
-                  class="fa fa-facebook fa-3x"></i></a>
+                  class="fab fa-facebook-f fa-3x"></i></a>
               <a target="_blank" href="https://www.linkedin.com/groups/2283124/"><i
-                  class="fa fa-linkedin fa-3x"></i></a>
+                  class="fab fa-linkedin-in fa-3x"></i></a>
               <a target="_blank"
                 href=" mailto:cahsi-president@csustan.edu?subject=CAHSI%20Club%3A%20contact%20-%20footer&body=Hi%2C%20I%27m%20contacting%20you%20via%20the%20site%20footer%20of%20https%3A%2F%2Fhopper.csustan.edu%2F%7Ecahsi%2F.%0A%0A"><i
-                  class="fa fa-envelope-o fa-3x"></i></a>
+                  class="fa fa-envelope fa-3x"></i></a>
             </div>
             <p>&copy; 2019 - 2021 &middot; CSU Stan CAHSI Club &middot; All Rights Reserved</p>
           </div>
@@ -430,12 +435,14 @@
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://snapwidget.com/js/snapwidget.js"></script>
-    <script src="js/main.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer="defer" src="https://snapwidget.com/js/snapwidget.js" async></script>
+    <script defer="defer" src="js/main.js" async></script>
 
   </body>
 
