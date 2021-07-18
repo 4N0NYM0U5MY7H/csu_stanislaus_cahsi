@@ -528,6 +528,8 @@ button {
     color: #fff;
     margin: 0;
     border-radius: 0;
+    background-image: url('../img/bg-jumbotron.webp');
+    background-size: cover;
 }
 
 .jumbotron h1,
