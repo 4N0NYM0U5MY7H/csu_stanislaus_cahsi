@@ -13,6 +13,23 @@ Please note that the version numbering is not for the benefit of the end user, b
 - Create page templates to easily add new sections to the site. 
 
 ---
+## 21.10.02 — Live Site Update 02.10.2021
+---
+### Added
+- New events for the end of the academic year
+
+---
+## 21.09.30 — Live Site Update 30.09.2021
+---
+### Changed
+- Moved from jQuery to jQuery slim
+
+### Fixed
+- Issue with navigation on some mobile devices
+- Issue with some third party css not working as intended
+- Issue with some third party js not working as intended
+
+---
 ## 21.07.18 — Live Site Update 18.07.2021
 ---
 ### Changed
