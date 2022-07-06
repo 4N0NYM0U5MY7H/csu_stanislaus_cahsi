@@ -4,6 +4,15 @@
 A National Includes Alliance
 ## at California State University Stanislaus
 
+[![school]][school-link]
+[![license]][&copy]
+
+<!-- badge info -->
+[school]:https://img.shields.io/badge/CSU%20Stanislaus-CAHSI-642361?labelColor=790E1C&style=for-the-badge
+[school-link]:https://hopper.csustan.edu/~cahsi/ "view site"
+[license]:https://img.shields.io/github/license/parasiticfrisk/csu-stanislaus-cahsi?color=informational&style=for-the-badge
+[&copy]:LICENSE "view license"
+
 </div>
 
 <br>
@@ -21,8 +30,3 @@ Because of its evidence-based impact, CAHSI has been nationally recognized in 20
 Original website code by [Stephanie Gamboa](https://github.com/sgamboa01).
 Updated code by [August Frisk](https://github.com/parasiticfrisk).
 Files may include third-party content, which may be subject to other license terms as provided in the files.
-
-<!-- quick links -->
-[sg]:https://github.com/sgamboa01
-[August Frisk]:
-[CHANGELOG]:./CHANGELOG.md
