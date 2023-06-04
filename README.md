@@ -1,32 +1,39 @@
+<div>
+<img src=".github/images/cahsi-logo.png" height="80px" alt="CAHSI Logo." />&nbsp;<picture>
+  <source
+    srcset=".github/images/stan-state_formal_full.png"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <source
+    srcset=".github/images/stan-state_formal_white.png"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img src=".github/images/stan-state_formal_full.png" height="80px" alt="California State University, Stanislaus Logo." />
+</picture>
+</div>
+<br />
+
+# CAHSI Club Website at Stan State
+
 <div align="center">
 
-#  Computing Alliance of Hispanic Serving Institutions (CAHSI)
-A National Includes Alliance
-## at California State University Stanislaus
+> **Note**: This repository is no longer maintained. Future changes and maintenance will be handled by the [CAHSI Club at Stan State](https://hopper.csustan.edu/~cahsi/) directly.
 
-[![school]][school-link]
-[![license]][&copy]
-
-<!-- badge info -->
-[school]:https://img.shields.io/badge/CSU%20Stanislaus-CAHSI-642361?labelColor=790E1C&style=for-the-badge
-[school-link]:https://hopper.csustan.edu/~cahsi/ "view site"
-[license]:https://img.shields.io/github/license/parasiticfrisk/csu-stanislaus-cahsi?color=informational&style=for-the-badge
-[&copy]:LICENSE "view license"
+![GitHub Last Updated](https://img.shields.io/badge/October_2021-critical?label=Last%20Updated&style=flat-square)
+![GitHub Not Maintained](https://img.shields.io/badge/Not_Maintained-critical?label=Status&style=flat-square)
 
 </div>
 
-<br>
+This repository contains the source code for the CAHSI Club website at California State University, Stanislaus. The website is hosted on CSU Stanislaus' Hopper servers and can be found at [https://hopper.csustan.edu/~cahsi/](https://hopper.csustan.edu/~cahsi/).
 
-### CAHSI Overview
-With National Science Foundation Broadening Participation in Computing funding, CAHSI was established in 2006 to address the low representation of Hispanics in computing in both higher education and the workforce.  In 2018, CAHSI received funding from the NSF, one of only five in the inaugural year to be designated as a National INCLUDES (Inclusion across the Nation of Communities of Learners of Underrepresented Discovers in Engineering and Science) alliance. CAHSI’s strategic actions accelerate inclusive change as well as engage administrators, faculty and professional staff, and entities from the public and private sectors.  CAHSI sets forth a flexible process using the conditions of collective impact that furthers the interchange of knowledge creation, adaptation, dissemination, and assessment. CAHSI has a distinguished Board of Advisors (BOA) who evaluate CAHSI’s progress and make recommendations regarding its strategic direction.
+## Built With
+* [![Bootstrap v.4.4.1](https://img.shields.io/badge/v.4.4.1-563D7C?&label=Bootstrap&labelColor=141414&logo=bootstrap&style=flat-square)](https://getbootstrap.com/docs/4.4/getting-started/introduction/) — Powerful, extensible, and feature-packed frontend toolkit.
+* [![jQuery v.3.4.1](https://img.shields.io/badge/v.3.4.1-0769AD?&label=jQuery&labelColor=141414&logo=jquery&logoColor=0768AD&style=flat-square)](https://jquery.com/) — Fast, small, and feature-rich JavaScript library.
+* [![Font Awesome v.5.13.0](https://img.shields.io/badge/v.5.13.0-339AF0?&label=Font%20Awesome&labelColor=141414&logo=font%20awesome&style=flat-square)](https://fontawesome.com/) — The Internet's icon library and toolkit.
 
-Because of its evidence-based impact, CAHSI has been nationally recognized in 2015 by the White House Initiative on Educational Excellence for Hispanics as a Bright Spot in Hispanic Education and by Excelencia in Education through its Growing What Works database.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<br>
-
-[More information about CAHSI](https://cahsi.utep.edu/about/)
-
----
-Original website code by [Stephanie Gamboa](https://github.com/sgamboa01).
-Updated code by [August Frisk](https://github.com/parasiticfrisk).
-Files may include third-party content, which may be subject to other license terms as provided in the files.
+Original code by [Stephanie Gamboa](https://github.com/sgamboa01).
+Updated and maintined by [August Frisk](https://github.com/4N0NYM0U5MY7H).
+Files may contain third-party content that is subject to additional license terms specified in the files.
