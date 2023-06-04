@@ -11,18 +11,13 @@
   <img src=".github/images/stan-state_formal_full.png" height="80px" alt="California State University, Stanislaus Logo." />
 </picture>
 </div>
-<br />
 
 # CAHSI Club Website at Stan State
-
-<div align="center">
-
 > **Note**: This repository is no longer maintained. Future changes and maintenance will be handled by the [CAHSI Club at Stan State](https://hopper.csustan.edu/~cahsi/) directly.
 
 ![GitHub Last Updated](https://img.shields.io/badge/October_2021-critical?label=Last%20Updated&style=flat-square)
 ![GitHub Not Maintained](https://img.shields.io/badge/Not_Maintained-critical?label=Status&style=flat-square)
 
-</div>
 
 This repository contains the source code for the CAHSI Club website at California State University, Stanislaus. The website is hosted on CSU Stanislaus' Hopper servers and can be found at [https://hopper.csustan.edu/~cahsi/](https://hopper.csustan.edu/~cahsi/).
 
