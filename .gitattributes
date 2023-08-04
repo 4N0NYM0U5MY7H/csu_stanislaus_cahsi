@@ -1,5 +1,5 @@
-docs/* linguist-documentation=false
-docs/* linguist-vendored=false
+docs/** linguist-documentation=false
+docs/** linguist-vendored=false
 
 ## GITATTRIBUTES FOR WEB PROJECTS
 #
