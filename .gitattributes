@@ -1,3 +1,6 @@
+docs/* linguist-documentation=false
+docs/* linguist-vendored=false
+
 ## GITATTRIBUTES FOR WEB PROJECTS
 #
 # These settings are for any web project.
