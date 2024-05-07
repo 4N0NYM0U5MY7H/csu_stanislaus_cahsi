@@ -22,8 +22,8 @@
 This repository contains the source code for the CAHSI Club website at California State University, Stanislaus. The website is hosted on CSU Stanislaus' Hopper servers and can be found at [https://hopper.csustan.edu/~cahsi/](https://hopper.csustan.edu/~cahsi/).
 
 ## Authors
-* Original code by [Stephanie Gamboa](https://www.linkedin.com/in/stephanie-gamboa-) (@sgamboa01).
-* Updated and maintined by [August Frisk](https://www.linkedin.com/in/august-frisk/) (@4N0NYM0U5MY7H).
+* Original code by [Stephanie Gamboa](https://www.linkedin.com/in/stephanie-gamboa-) ([@sgamboa01](https://github.com/sgamboa01)).
+* Updated and maintined by [August Frisk](https://www.linkedin.com/in/august-frisk/) ([@4N0NYM0U5MY7H](https://github.com/4N0NYM0U5MY7H)).
 
 ## Tools &amp; Technologies
 [![Bootstrap 4.4.1](https://img.shields.io/badge/4.4.1-563D7C?&label=Bootstrap&labelColor=141414&logo=bootstrap&style=flat-square)](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
