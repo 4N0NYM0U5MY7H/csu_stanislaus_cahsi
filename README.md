@@ -12,8 +12,8 @@
 </picture>
 </div>
 
-# CAHSI Club Website at Stan State
-> **WARNING**: this repository is archived and is no longer maintained. Future changes and maintenance will be handled directly by the [CAHSI Club at Stan State](https://hopper.csustan.edu/~cahsi/).
+# Stanislaus State CAHSI Club Website
+> **WARNING**: this repository is archived and is no longer maintained. Future changes and maintenance will be handled directly by the [Stanislaus State CAHSI Club](https://hopper.csustan.edu/~cahsi/).
 >
 > [![Last Updated](https://img.shields.io/badge/October_2021-critical?label=Last%20Updated)](#)
 > [![Not Maintained](https://img.shields.io/badge/Not_Maintained-critical?label=Status)](#)
